@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>website</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"> <img src="Image/logo1.jpg" alt="logo"></a>
+            <div class = "navLink" id="nlink">
+                <i class="fa fa-arrow-right"  onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="HOME">HOME</a></li>
+                    <li><a href="ABOUT">ABOUT</a></li>
+                    <li><a href="COURSE">COURSE</a></li>
+                    <li><a href="BLOG">BLOG</a></li>
+                    <li><a href="CONTACT">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <div>
+                <h1>India's no.1 institute</h1>
+            <p> <strong>Learn Java and</strong> 
+               <br> <h3>Advance Your Career</h3>
+               <br> Your desire to keep moving forward requires an Institute with the standards as high as your expectations.
+               <br> JTC INDIA has been providing CORE AND ADVANCED JAVA TRAINING for over 8+ years and ranked among top Institutes. </p>
+               <a href="" class="hero-btn">visit to know more</a>
+            </div>
+               <div id="trainer">
+                <img src="Image/trainer (1).png" width="400px">
+            </div>
+        </div>
+    </section> 
+<!------------------------body----------------------->    
+<section class="main">
+    <p style="font-size: 20px;">Program <b>Key Highlights</b> </p>
+    <p>JTC INDIA is the institute that provides both industry-standard training courses and skills to the students.</p>
+</div>
+<div class="program">
+    <div>
+        <i class="fa fa-book" ></i>
+        <p>learn by auther</p>
+    </div>
+    <div>
+        <i class="fa fa-file-video-o"></i>
+        <p>250+ Video Tutorials Free</p>
+    </div>
+    <div>
+        <i class="fa fa-briefcase" ></i>
+        <p>15+ Years of Experience</p>
+    </div>
+</div>
+<div class="program">
+    <div>
+        <i class="fa fa-graduation-cap" ></i>
+        <p>15000+ Students Placed</p>
+    </div>
+    <div>
+        <i  class="fa fa-newspaper-o" ></i>
+        <p>100% Jobs Guarantee</p>
+    </div>
+    <div>
+        <i class="fa fa-file-text-o" ></i>
+        <p>OCJP-8 Certification</p>
+    </div>
+</div>
+<p style="margin-top: 20px;">We will support you</p>
+<div class="p">
+   
+    <div><p>Live Projects</p></div>
+    <div><p>Interview Preparation</p></div>
+    <div><p>Resume Writing</p></div>
+</div>
+</section>   
+
+<!------------------------footer----------------------->    
+    <footer>
+        <h1>follow us on</h1>
+        <div class="footer">
+        <div>
+            <i class="fa fa-facebook-official"> facebook</i>
+        </div>
+        <div>
+            <i class="fa fa-twitter-square"> twitter</i>
+        </div>
+        <div>
+            <i class="fa fa-linkedin"> linkedin</i>
+        </div>
+        <div>
+            <i class="fa fa-youtube-play"> Youtube</i>
+        </div>
+    </div>
+    </footer>
+    <!-----------------------script---------------------->   
+    <script>
+        var nLink=document.getElementById("nlink");
+        function showMenu(){
+            nlink.style.right="0";
+        }
+        function hideMenu(){
+            nlink.style.right="-150px"
+        }
+    </script>
+</body>
+</html>
